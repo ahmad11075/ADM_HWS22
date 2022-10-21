@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 import pickle
 
-model = pickle.load(open('./model.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 
 def show_predict_page():
     img1 = Image.open('svu.png')
